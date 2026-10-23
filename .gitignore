@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Original downloads stay local.
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Derived datasets stay local.
+/data/processed/*
+!/data/processed/.gitkeep
