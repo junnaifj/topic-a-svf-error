@@ -10,8 +10,9 @@ Buildings, terrain and vegetation can obstruct that view.
 
 ## Current stage
 
-Repository setup, study-area selection and data acquisition.
-No SVF results have been produced yet.
+**Round 2 (data acquisition) complete as of 23 Oct 2026.**
+Study area fixed (Mong Kok); CEDD 2020 DSM/DTM 0.5 m tiles acquired (held off this Mac until iCloud space allows); LandsD 3D-BIT00 blocked at OneStopSystem.
+No SVF results have been produced yet — that is Round 3+.
 
 ## Pilot target
 
