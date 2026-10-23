@@ -1,0 +1,5 @@
+layer,dataset_url,status,local_path,blocker,next_action,verified_resolution,verified_survey_year,crs
+DSM,https://bulkdata.csdi.gov.hk/cedd/lidar/2020dsm/,downloaded_offsite,retained_by_research_assistant_computer_9_tiles,"Mac Documents is iCloud-full; ZIP transfer deferred",Copy 9 DSM ZIPs into data/raw/cedd/dsm when local non-iCloud space available,0.5 m,2019-12-20 to 2020-02-02,EPSG:2326
+DTM,https://bulkdata.csdi.gov.hk/cedd/lidar/2020dtm/,downloaded_offsite,retained_by_research_assistant_computer_9_tiles,"Mac Documents is iCloud-full; ZIP transfer deferred",Copy 9 DTM ZIPs into data/raw/cedd/dtm when local non-iCloud space available,0.5 m,2019-12-20 to 2020-02-02,EPSG:2326
+buildings_3d_bit00_native,https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatB&series=3D-BIT00,blocked,,"Native Max/3ds/FBX via OneStopSystem OSS Cat B",Register/request sheets if LoD footprints needed,,,
+buildings_3d_bit00_api,https://data.map.gov.hk/api/3d-data/3dsd/WGS84/building/tileset.json,partial_probe,data/raw/landsd/tileset_building_examplekey.json,"Cesium 3D Tiles probe only; not analysis-ready footprints",Decide 3D Tiles parse vs OneStopSystem,,,

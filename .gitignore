@@ -4,10 +4,17 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
+*.tar.gz
+*.zip
 
 # Original downloads stay local.
-/data/raw/*
-!/data/raw/.gitkeep
+/data/raw/**/*.tif
+/data/raw/**/*.tiff
+/data/raw/cedd/dsm/*
+!/data/raw/cedd/dsm/.gitkeep
+/data/raw/cedd/dtm/*
+!/data/raw/cedd/dtm/.gitkeep
+/data/raw/cedd/inspect/
 
 # Derived datasets stay local.
 /data/processed/*

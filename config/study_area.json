@@ -1,0 +1,16 @@
+{
+  "site": "Mong Kok, Hong Kong",
+  "status": "provisional; CEDD 2020 DSM/DTM tiles downloaded for acquisition bbox",
+  "bbox_crs": "EPSG:4326",
+  "bbox_order": ["west", "south", "east", "north"],
+  "acquisition_bbox": [114.16464, 22.31480, 114.17436, 22.32380],
+  "core_bbox": [114.16707, 22.31705, 114.17193, 22.32155],
+  "acquisition_bbox_hk1980_epsg2326": {
+    "west": 835007.5,
+    "south": 819534.7,
+    "east": 836009.0,
+    "north": 820531.2,
+    "note": "converted 2026-10-23 with pyproj EPSG:4326→EPSG:2326 always_xy"
+  },
+  "planned_analysis_crs": "EPSG:2326"
+}

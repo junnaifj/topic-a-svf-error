@@ -1,83 +1,37 @@
-# Data acquisition and provenance
+# Topic A pilot — data folder
 
-## Current status
+**Updated:** 2026-10-23 (Asia/Shanghai)
 
-- CEDD DSM: not yet attempted
-- DTM / terrain: not yet attempted
-- LandsD 3D-BIT00 buildings: not yet attempted
-- Small public sample: pending acquisition, clipping and licence review
+## Status summary
 
-## Study area
+| Layer | Status | Verified resolution | Survey | Notes |
+|---|---|---|---|---|
+| CEDD DSM 2020 | Downloaded (9 tiles) — **files held off this Mac** | **0.5 m** | 2019–2020 helicopter LiDAR | EPSG:2326; see `raw/cedd/DOWNLOAD_RECORD.md` |
+| CEDD DTM 2020 | Downloaded (9 tiles) — **files held off this Mac** | **0.5 m** | 2019–2020 helicopter LiDAR | Same tile set as DSM |
+| LandsD 3D-BIT00 | Blocked / partial probe | — | — | OneStopSystem; Cesium tileset probe only |
 
-Proposed location: Mong Kok, Hong Kong.
+Tile names: `11NW14C`, `11NW14D`, `11NW15C`, `11NW19A`, `11NW19B`, `11NW19C`, `11NW19D`, `11NW20A`, `11NW20C`.
 
-WGS84 acquisition bbox:
-[114.16464, 22.31480, 114.17436, 22.32380]
+## Why rasters are not in this folder yet
 
-WGS84 core bbox:
-[114.16707, 22.31705, 114.17193, 22.32155]
+iCloud Drive storage for `Documents` is full. Large ZIPs (~101 MB) stay with the research assistant until copied into a **non-iCloud** path (or after iCloud space is freed). Indexes + SHA-256 lists are committed; original ZIPs must **not** go to GitHub.
 
-Order: west, south, east, north.
+## Layout
 
-## Sources
+```text
+data/
+  acquisition_log.csv
+  README.md
+  raw/
+    cedd/          # DOWNLOAD_RECORD, SHA256SUMS, indexes; dsm/ dtm/ for local ZIPs
+    landsd/        # DOWNLOAD_RECORD + tileset probe JSON
+  processed/       # derived clips later
+  sample/          # small shareable clip pending
+```
 
-CEDD LiDAR information:
-https://www.ginfo.cedd.gov.hk/geoopendata/eng/LIDAR.aspx
+## Pending (not Round 2 blockers)
 
-CEDD download portal:
-https://sdportal.cedd.gov.hk/
-
-LandsD open data:
-https://www.landsd.gov.hk/en/spatial-data/open-data.html
-
-CSDI:
-https://portal.csdi.gov.hk/
-
-3D API documentation:
-https://portal.csdi.gov.hk/csdi-webpage/apidoc/3d-spatial-data-api
-
-## Dataset record — duplicate this section for each acquired layer
-
-- Dataset name:
-- Provider:
-- Dataset page URL:
-- Retrieval date:
-- Downloaded filename:
-- Tile identifier:
-- Survey year:
-- Revision date:
-- Native resolution or geometry class:
-- File format:
-- Horizontal coordinate system:
-- Vertical datum:
-- Height units:
-- Missing-data value:
-- Coverage:
-- Licence / terms URL:
-- Redistribution permission:
-- Local storage location:
-
-Use "unknown" for details not yet verified.
-
-## Download blocker record
-
-- Dataset:
-- Date attempted:
-- Page URL:
-- Intended area or tile:
-- Action attempted:
-- Exact error or access requirement:
-- Next action:
-
-## Storage rules
-
-Original downloads are stored locally under data/raw/.
-Keep archives, metadata, terms and supporting files together.
-
-Derived datasets belong under data/processed/.
-
-Only a small example with confirmed redistribution permission
-may be published under data/sample/.
-
-Do not upload original data packages through the browser.
-A map preview or tileset index alone is not a complete analysis dataset.
+- Local ZIP copy into `raw/cedd/dsm` and `dtm`
+- Small clipped sample
+- Resampling notebook
+- Analysis-ready buildings
