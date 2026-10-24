@@ -8,11 +8,37 @@ level-of-detail differences affect sky view factor (SVF), and potentially shade?
 SVF describes how much of the sky is visible from a location.
 Buildings, terrain and vegetation can obstruct that view.
 
-## Current stage
+## Status
 
-**Round 2 (data acquisition) complete as of 23 Oct 2026.**
-Study area fixed (Mong Kok); CEDD 2020 DSM/DTM 0.5 m tiles acquired (held off this Mac until iCloud space allows); LandsD 3D-BIT00 blocked at OneStopSystem.
-No SVF results have been produced yet — that is Round 3+.
+Round 3 data are prepared: local CEDD 2020 DSM/DTM mosaics, acquisition/core
+clips, nDSM and small samples have been generated. All acceptance checks pass.
+DSM ≥ DTM − 0.3 m for **99.99520%** of valid core pixels (required >99%).
+There are **48 core pixels below −0.3 m**, mapped in the QA figure. Strict
+DSM ≥ DTM and the full negative-difference distribution are reported without
+being acceptance gates. nDSM negatives alone are clamped to zero and counted.
+No SVF has been calculated.
+
+Reproduce rasters, reports and the figure with one command from this repo:
+
+```bash
+.venv/bin/python scripts/prepare_cedd_rasters.py
+```
+
+The command exits 0 if acceptance checks pass, or 1 on failure. See
+[raster QA](docs/RASTER_QA.md), [machine-readable QA](reports/raster_qa.json)
+and [overview figure](figures/qa_overview.png).
+
+For a fresh checkout, place the 18 extracted source GeoTIFFs under
+`data/raw/cedd/extracted/{dsm,dtm}/<tile>/`, then create the environment:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-svf.txt
+```
+
+Raw data, processed rasters and sample TIFFs stay local under the publishing
+safeguard that excludes all ZIP and TIFF files. The script never writes to
+`data/raw`; it verifies source TIFF SHA-256 hashes before and after processing.
 
 ## Pilot target
 
@@ -41,8 +67,9 @@ Core analysis area, approximately 500 m × 500 m:
 
 [114.16707, 22.31705, 114.17193, 22.32155]
 
-These are provisional geographic rectangles.
-Visual inspection, data coverage and exact metric dimensions remain to be checked.
+These geographic rectangles record the original approximate selection.
+The authoritative EPSG:2326 envelopes are in `config/study_area.json`;
+processing snaps them outward to native pixel edges (see the QA report).
 The surrounding acquisition area supplies context for buildings outside the core.
 The final SVF buffer distance will require checking.
 
@@ -59,7 +86,7 @@ geometry classes and licences must be verified before analysis.
 ## Planned tools
 
 Python, Jupyter, pandas, matplotlib, rasterio/GDAL and QGIS/UMEP.
-Software setup is pending.
+The raster-preparation Python environment is installed in `.venv/`.
 
 ## Data sources
 
@@ -100,8 +127,8 @@ The reference DSM is not error-free ground truth.
 
 ## Next step
 
-Inspect the acquired raster and prepare:
-notebooks/01_dem_resample_compare.ipynb
+Review the mapped 48 core outliers before interpreting local height differences.
+Then prepare `notebooks/01_dem_resample_compare.ipynb`.
 
 This first notebook will compare elevation grids.
 It will not yet calculate SVF.

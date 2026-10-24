@@ -1,22 +1,29 @@
 .DS_Store
+.env
+.env.*
 .venv/
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 *.zip
 *.tar
 *.tar.gz
 *.part
-# raw elevation tiles & mosaics (local only)
-data/raw/cedd/dsm/*
-!data/raw/cedd/dsm/.gitkeep
-data/raw/cedd/dtm/*
-!data/raw/cedd/dtm/.gitkeep
-data/raw/cedd/extracted/
-data/processed/*.tif
-data/processed/*.tiff
-data/sample/*.tif
-data/sample/*.tiff
-# keep docs/indexes/checksums
-!data/raw/cedd/indexes/
-!data/raw/cedd/*.md
-!data/raw/cedd/*.txt
+# Ignore raw files, but retain metadata records and indexes.
+/data/raw/**
+!/data/raw/**/
+!/data/raw/**/.gitkeep
+!/data/raw/**/indexes/**
+!/data/raw/**/DOWNLOAD_RECORD.md
+!/data/raw/**/SHA256SUMS.txt
+# Derived full-resolution rasters and small sample TIFFs remain local.
+/data/processed/*.tif
+/data/processed/*.tiff
+/data/processed/*.tmp*
+
+# Latest publishing safeguard: no TIFFs or source-tile folders in commits.
+*.tif
+*.tiff
+/data/raw/cedd/dsm/
+/data/raw/cedd/dtm/
+/data/raw/cedd/extracted/

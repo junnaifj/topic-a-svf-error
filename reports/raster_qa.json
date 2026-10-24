@@ -1,0 +1,1256 @@
+{
+  "status": "PASS",
+  "inventory": [
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW14C(e834n820,e835n821)/11NW14C(e834n820,e835n821).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        834500.0,
+        820400.0,
+        835250.0,
+        821000.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        834500.0,
+        0.0,
+        -0.5,
+        821000.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW14C",
+      "sha256": "ff882529f6b1a541baf9feabce50e22ccd0ff56c7ef0306b301d326cfe43ad48"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW14D(e835n820,e836n821)/11NW14D(e835n820,e836n821).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835250.0,
+        820400.0,
+        836000.0,
+        821000.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835250.0,
+        0.0,
+        -0.5,
+        821000.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW14D",
+      "sha256": "d1174135dc082d4e256a3394cae38f8c49539b1515a7d18561d082cd604f3c95"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW15C(e836n820,e836n821)/11NW15C(e836n820,e836n821).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        836000.0,
+        820400.0,
+        836750.0,
+        821000.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        836000.0,
+        0.0,
+        -0.5,
+        821000.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW15C",
+      "sha256": "0d44a73e96a0131462b3862bfa1cc19e4e7fdaba8111f161f5a0d17f4ebbf0d9"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW19A(e834n819,e835n820)/11NW19A(e834n819,e835n820).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        834500.0,
+        819800.0,
+        835250.0,
+        820400.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        834500.0,
+        0.0,
+        -0.5,
+        820400.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW19A",
+      "sha256": "d442f59830cd31a8527725062c225829bc38a9ecf2551428cf8ef4767a2e67fc"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW19B(e835n819,e836n820)/11NW19B(e835n819,e836n820).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835250.0,
+        819800.0,
+        836000.0,
+        820400.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835250.0,
+        0.0,
+        -0.5,
+        820400.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW19B",
+      "sha256": "c1f27fb4859f5b62357eaf2778a537bdc9a6608ce8090ec463688f78a2223105"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW19C(e834n819,e835n819)/11NW19C(e834n819,e835n819).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        834500.0,
+        819200.0,
+        835250.0,
+        819800.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        834500.0,
+        0.0,
+        -0.5,
+        819800.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW19C",
+      "sha256": "90832f59250ba871195fd49aee6636e48941cc212c288dbb17318225856b01ca"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW19D(e835n819,e836n819)/11NW19D(e835n819,e836n819).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835250.0,
+        819200.0,
+        836000.0,
+        819800.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835250.0,
+        0.0,
+        -0.5,
+        819800.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW19D",
+      "sha256": "9f113aaf9349d7d05e73662d1a1b275d5a6e1b9a0089f4689ae2cd24f3426f3f"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW20A(e836n819,e836n820)/11NW20A(e836n819,e836n820).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        836000.0,
+        819800.0,
+        836750.0,
+        820400.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        836000.0,
+        0.0,
+        -0.5,
+        820400.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW20A",
+      "sha256": "4903876634a9d8f94959a9bfee01b01349d6610b0f2bc1a2749c4f004eb4a5d6"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dsm/11NW20C(e836n819,e836n819)/11NW20C(e836n819,e836n819).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        836000.0,
+        819200.0,
+        836750.0,
+        819800.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        836000.0,
+        0.0,
+        -0.5,
+        819800.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dsm",
+      "tile": "11NW20C",
+      "sha256": "68daa38d90b769cd1c5a7420f44da29ca5c7110b72929fd0cb8ae99bb078d07f"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW14C(e834n820,e835n821)/11NW14C(e834n820,e835n821).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        834500.0,
+        820400.0,
+        835250.0,
+        821000.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        834500.0,
+        0.0,
+        -0.5,
+        821000.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW14C",
+      "sha256": "62247a4a0aee6c7de1b659b512d4d54db6f13813846581623f48b9670ce285c9"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW14D(e835n820,e836n821)/11NW14D(e835n820,e836n821).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835250.0,
+        820400.0,
+        836000.0,
+        821000.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835250.0,
+        0.0,
+        -0.5,
+        821000.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW14D",
+      "sha256": "9618ca3408b9f75d73767e65ac7c57368822531d4becdb98eb3318cf2165c67a"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW15C(e836n820,e836n821)/11NW15C(e836n820,e836n821).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        836000.0,
+        820400.0,
+        836750.0,
+        821000.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        836000.0,
+        0.0,
+        -0.5,
+        821000.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW15C",
+      "sha256": "7c0b9eab13e250e29b5ecf7119534469aefcbccedbe86c27a0ffd23303d8ff3b"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW19A(e834n819,e835n820)/11NW19A(e834n819,e835n820).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        834500.0,
+        819800.0,
+        835250.0,
+        820400.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        834500.0,
+        0.0,
+        -0.5,
+        820400.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW19A",
+      "sha256": "3f5b53c05ea3b17ce11b8f3f1b31767a6d32b586f4969f33825e4014620dde64"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW19B(e835n819,e836n820)/11NW19B(e835n819,e836n820).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835250.0,
+        819800.0,
+        836000.0,
+        820400.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835250.0,
+        0.0,
+        -0.5,
+        820400.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW19B",
+      "sha256": "5856281886003f8e3b8c5f4b7cb9ea1a500ff47fc3a6b0328328b7fb9bf724de"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW19C(e834n819,e835n819)/11NW19C(e834n819,e835n819).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        834500.0,
+        819200.0,
+        835250.0,
+        819800.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        834500.0,
+        0.0,
+        -0.5,
+        819800.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW19C",
+      "sha256": "312f9f1c4d3fd834e992475f3a88edf0b4af34b5c46404891047a03b02a6e353"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW19D(e835n819,e836n819)/11NW19D(e835n819,e836n819).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835250.0,
+        819200.0,
+        836000.0,
+        819800.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835250.0,
+        0.0,
+        -0.5,
+        819800.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW19D",
+      "sha256": "6e091d18c300406bade924065515780eb5e73ad4cd3e32c026ae4e5fdb39d274"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW20A(e836n819,e836n820)/11NW20A(e836n819,e836n820).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        836000.0,
+        819800.0,
+        836750.0,
+        820400.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        836000.0,
+        0.0,
+        -0.5,
+        820400.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW20A",
+      "sha256": "ee9cb74db00290b4eb5829876bef0e5586bcbf885033b17f8b2d3964c973cc50"
+    },
+    {
+      "path": "data/raw/cedd/extracted/dtm/11NW20C(e836n819,e836n819)/11NW20C(e836n819,e836n819).tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1200,
+        1500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        836000.0,
+        819200.0,
+        836750.0,
+        819800.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        836000.0,
+        0.0,
+        -0.5,
+        819800.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 7868582,
+      "tiled": true,
+      "compression": null,
+      "layer": "dtm",
+      "tile": "11NW20C",
+      "sha256": "f3c2841c651b04064fd17167374e31191d2915b07771b596b5d5548c9704498d"
+    }
+  ],
+  "outputs": {
+    "dsm_mosaic": {
+      "path": "data/processed/cedd2020_dsm_mosaic_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        3600,
+        4500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        834500.0,
+        819200.0,
+        836750.0,
+        821000.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        834500.0,
+        0.0,
+        -0.5,
+        821000.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 58768032,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 16163772,
+      "nodata_percent": 0.22362962962962918,
+      "elevation_min_m": -7.043522357940674,
+      "elevation_max_m": 260.3158264160156,
+      "elevation_mean_m": 25.60070511863545
+    },
+    "dsm_acq": {
+      "path": "data/processed/cedd2020_dsm_acq_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1994,
+        2004
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835007.0,
+        819534.5,
+        836009.0,
+        820531.5
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835007.0,
+        0.0,
+        -0.5,
+        820531.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 14771059,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 3995976,
+      "nodata_percent": 0.0,
+      "elevation_min_m": -7.043522357940674,
+      "elevation_max_m": 260.3158264160156,
+      "elevation_mean_m": 23.67911971579732
+    },
+    "dsm_core": {
+      "path": "data/processed/cedd2020_dsm_core_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        998,
+        1003
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835257.5,
+        819783.5,
+        835759.0,
+        820282.5
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835257.5,
+        0.0,
+        -0.5,
+        820282.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 3732723,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 1000994,
+      "nodata_percent": 0.0,
+      "elevation_min_m": 3.425766944885254,
+      "elevation_max_m": 260.3158264160156,
+      "elevation_mean_m": 25.551387061546553
+    },
+    "dtm_mosaic": {
+      "path": "data/processed/cedd2020_dtm_mosaic_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        3600,
+        4500
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        834500.0,
+        819200.0,
+        836750.0,
+        821000.0
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        834500.0,
+        0.0,
+        -0.5,
+        821000.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 45020315,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 16163772,
+      "nodata_percent": 0.22362962962962918,
+      "elevation_min_m": -2.6694388389587402,
+      "elevation_max_m": 69.20609283447266,
+      "elevation_mean_m": 13.35610381188967
+    },
+    "dtm_acq": {
+      "path": "data/processed/cedd2020_dtm_acq_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1994,
+        2004
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835007.0,
+        819534.5,
+        836009.0,
+        820531.5
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835007.0,
+        0.0,
+        -0.5,
+        820531.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 10672606,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 3995976,
+      "nodata_percent": 0.0,
+      "elevation_min_m": -2.3831872940063477,
+      "elevation_max_m": 40.3043212890625,
+      "elevation_mean_m": 7.621892843887846
+    },
+    "dtm_core": {
+      "path": "data/processed/cedd2020_dtm_core_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        998,
+        1003
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835257.5,
+        819783.5,
+        835759.0,
+        820282.5
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835257.5,
+        0.0,
+        -0.5,
+        820282.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 2544272,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 1000994,
+      "nodata_percent": 0.0,
+      "elevation_min_m": 3.351346015930176,
+      "elevation_max_m": 7.364113807678223,
+      "elevation_mean_m": 5.126795818158617
+    },
+    "ndsm_acq": {
+      "path": "data/processed/cedd2020_ndsm_acq_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        1994,
+        2004
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835007.0,
+        819534.5,
+        836009.0,
+        820531.5
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835007.0,
+        0.0,
+        -0.5,
+        820531.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 14579912,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 3995976,
+      "nodata_percent": 0.0,
+      "elevation_min_m": 0.0,
+      "elevation_max_m": 255.3234405517578,
+      "elevation_mean_m": 16.058955479322737,
+      "negative_pixels_clamped_to_zero": 332220
+    },
+    "ndsm_core": {
+      "path": "data/processed/cedd2020_ndsm_core_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        998,
+        1003
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835257.5,
+        819783.5,
+        835759.0,
+        820282.5
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835257.5,
+        0.0,
+        -0.5,
+        820282.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 3847941,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 1000994,
+      "nodata_percent": 0.0,
+      "elevation_min_m": 0.0,
+      "elevation_max_m": 255.3234405517578,
+      "elevation_mean_m": 20.426778281339544,
+      "negative_pixels_clamped_to_zero": 116928
+    }
+  },
+  "pairs": {
+    "mosaic": {
+      "grid_match": true,
+      "valid_pixels": 16163772,
+      "dsm_ge_dtm_percent": 88.96025630651063,
+      "passes_strictly_over_99_percent": false,
+      "tolerance_m": 0.3,
+      "dsm_ge_dtm_minus_0p3_percent": 99.95181817709381,
+      "passes_core_tolerance": true,
+      "below_minus_0p3_pixels": 7788,
+      "below_minus_0p3_percent": 0.048181822906187985,
+      "negative_percentiles_m": {
+        "0": -48.54914855957031,
+        "1": -0.08288756370544433,
+        "5": -0.04984855651855469,
+        "25": -0.025211334228515625,
+        "50": -0.013261795043945312,
+        "75": -0.005579948425292969,
+        "95": -0.0009503364562988281,
+        "99": -0.0001735687255859375,
+        "100": -5.960464477539063e-08
+      },
+      "negative_pixels": 1784439,
+      "delta_min_m": -48.54914855957031,
+      "delta_max_m": 255.32344388961792,
+      "negative_mean_m": -0.028718228826254386,
+      "negative_pixels_below_minus_0p1m": 13364,
+      "negative_pixels_below_minus_1m": 4732
+    },
+    "acq": {
+      "grid_match": true,
+      "valid_pixels": 3995976,
+      "dsm_ge_dtm_percent": 91.6861362530706,
+      "passes_strictly_over_99_percent": false,
+      "tolerance_m": 0.3,
+      "dsm_ge_dtm_minus_0p3_percent": 99.98313303183002,
+      "passes_core_tolerance": true,
+      "below_minus_0p3_pixels": 674,
+      "below_minus_0p3_percent": 0.016866968169979,
+      "negative_percentiles_m": {
+        "0": -13.104217529296875,
+        "1": -0.07545646190643311,
+        "5": -0.050213861465454104,
+        "25": -0.025708794593811035,
+        "50": -0.013446807861328125,
+        "75": -0.005548357963562012,
+        "95": -0.0009093284606933594,
+        "99": -0.00016364574432373158,
+        "100": -2.384185791015625e-07
+      },
+      "negative_pixels": 332220,
+      "delta_min_m": -13.104217529296875,
+      "delta_max_m": 255.32344388961792,
+      "negative_mean_m": -0.020791864719885055,
+      "negative_pixels_below_minus_0p1m": 1507,
+      "negative_pixels_below_minus_1m": 279
+    },
+    "core": {
+      "grid_match": true,
+      "valid_pixels": 1000994,
+      "dsm_ge_dtm_percent": 88.31881110176485,
+      "passes_strictly_over_99_percent": false,
+      "tolerance_m": 0.3,
+      "dsm_ge_dtm_minus_0p3_percent": 99.99520476646214,
+      "passes_core_tolerance": true,
+      "below_minus_0p3_pixels": 48,
+      "below_minus_0p3_percent": 0.0047952335378633635,
+      "negative_percentiles_m": {
+        "0": -1.5321383476257324,
+        "1": -0.07078955888748169,
+        "5": -0.05038752555847168,
+        "25": -0.0265655517578125,
+        "50": -0.014022111892700195,
+        "75": -0.005851268768310547,
+        "95": -0.0009948492050170926,
+        "99": -0.00018596649169921875,
+        "100": -4.76837158203125e-07
+      },
+      "negative_pixels": 116928,
+      "delta_min_m": -1.5321383476257324,
+      "delta_max_m": 255.32344388961792,
+      "negative_mean_m": -0.018722738932000528,
+      "negative_pixels_below_minus_0p1m": 205,
+      "negative_pixels_below_minus_1m": 15
+    }
+  },
+  "envelopes": {
+    "acq": {
+      "requested": [
+        835007.46,
+        819534.61,
+        836008.96,
+        820531.27
+      ],
+      "snapped": [
+        835007.0,
+        819534.5,
+        836009.0,
+        820531.5
+      ],
+      "width_m": 1002.0,
+      "height_m": 997.0
+    },
+    "core": {
+      "requested": [
+        835257.85,
+        819783.77,
+        835758.59,
+        820282.1
+      ],
+      "snapped": [
+        835257.5,
+        819783.5,
+        835759.0,
+        820282.5
+      ],
+      "width_m": 501.5,
+      "height_m": 499.0
+    }
+  },
+  "checks": {
+    "input_metadata_consistent": true,
+    "mosaic_grid_match": true,
+    "acq_grid_match": true,
+    "core_grid_match": true,
+    "core_dsm_ge_dtm_minus_0p3_over_99_percent": true,
+    "dsm_mosaic_raster_metadata": true,
+    "dsm_acq_raster_metadata": true,
+    "dsm_acq_complete_coverage": true,
+    "dsm_core_raster_metadata": true,
+    "dsm_core_complete_coverage": true,
+    "dtm_mosaic_raster_metadata": true,
+    "dtm_acq_raster_metadata": true,
+    "dtm_acq_complete_coverage": true,
+    "dtm_core_raster_metadata": true,
+    "dtm_core_complete_coverage": true,
+    "ndsm_acq_raster_metadata": true,
+    "ndsm_acq_complete_coverage": true,
+    "ndsm_core_raster_metadata": true,
+    "ndsm_core_complete_coverage": true,
+    "raw_tiff_sha256_unchanged": true
+  },
+  "failures": [],
+  "software": {
+    "python": "3.12.14",
+    "rasterio": "1.5.2",
+    "gdal": "3.12.2",
+    "numpy": "2.3.5",
+    "pyproj": "3.8.0"
+  },
+  "notes": [
+    "Input tile bounds differ by location; metadata, dimensions and pixel-grid alignment must match. Corresponding DSM/DTM tile bounds must be identical.",
+    "No reprojection or resolution change is performed. rasterio.merge combines matching native grids; clips use outward-rounded integer pixel windows.",
+    "Projected envelopes in config are authoritative; retained WGS84 boxes document the original approximate selection.",
+    "nDSM is DSM \u2212 DTM with negative valid values clamped to zero. Original DSM/DTM and strict sanity checks remain unchanged.",
+    "Acceptance threshold: DSM \u2265 DTM \u2212 0.3 m for strictly >99% of jointly valid core pixels. Strict DSM \u2265 DTM is informational only. Negative percentiles are conditional on negative differences; percentages below \u22120.3 m use all jointly valid pixels.",
+    "Vertical datum and accuracy have not been independently verified; matching horizontal grids do not establish either.",
+    "Source NoData retained unchanged: -9999.0."
+  ],
+  "samples": [
+    {
+      "path": "data/sample/cedd2020_dsm_core_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        998,
+        1003
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835257.5,
+        819783.5,
+        835759.0,
+        820282.5
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835257.5,
+        0.0,
+        -0.5,
+        820282.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 3732723,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 1000994,
+      "nodata_percent": 0.0,
+      "elevation_min_m": 3.425766944885254,
+      "elevation_max_m": 260.3158264160156,
+      "elevation_mean_m": 25.551387061546553,
+      "selection": "copy of full core (<10 MB decimal)"
+    },
+    {
+      "path": "data/sample/cedd2020_dtm_core_0p5m.tif",
+      "crs": "EPSG:2326",
+      "resolution": [
+        0.5,
+        0.5
+      ],
+      "shape": [
+        998,
+        1003
+      ],
+      "dtype": "float32",
+      "nodata": -9999.0,
+      "bounds": [
+        835257.5,
+        819783.5,
+        835759.0,
+        820282.5
+      ],
+      "transform": [
+        0.5,
+        0.0,
+        835257.5,
+        0.0,
+        -0.5,
+        820282.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bands": 1,
+      "size_bytes": 2544272,
+      "tiled": true,
+      "compression": "lzw",
+      "valid_pixels": 1000994,
+      "nodata_percent": 0.0,
+      "elevation_min_m": 3.351346015930176,
+      "elevation_max_m": 7.364113807678223,
+      "elevation_mean_m": 5.126795818158617,
+      "selection": "copy of full core (<10 MB decimal)"
+    }
+  ]
+}

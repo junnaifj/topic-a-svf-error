@@ -1,16 +1,52 @@
 {
   "site": "Mong Kok, Hong Kong",
-  "status": "provisional; CEDD 2020 DSM/DTM tiles downloaded for acquisition bbox",
+  "status": "Round 3 data prepared; acceptance uses >99% of valid core pixels with DSM \u2265 DTM \u2212 0.3 m; see docs/RASTER_QA.md",
   "bbox_crs": "EPSG:4326",
-  "bbox_order": ["west", "south", "east", "north"],
-  "acquisition_bbox": [114.16464, 22.31480, 114.17436, 22.32380],
-  "core_bbox": [114.16707, 22.31705, 114.17193, 22.32155],
+  "bbox_order": [
+    "west",
+    "south",
+    "east",
+    "north"
+  ],
+  "acquisition_bbox": [
+    114.16464,
+    22.3148,
+    114.17436,
+    22.3238
+  ],
+  "core_bbox": [
+    114.16707,
+    22.31705,
+    114.17193,
+    22.32155
+  ],
   "acquisition_bbox_hk1980_epsg2326": {
-    "west": 835007.5,
-    "south": 819534.7,
-    "east": 836009.0,
-    "north": 820531.2,
-    "note": "converted 2026-10-23 with pyproj EPSG:4326→EPSG:2326 always_xy"
+    "west": 835007.46,
+    "south": 819534.61,
+    "east": 836008.96,
+    "north": 820531.27,
+    "note": "Authoritative Round 3 acquisition envelope; supersedes approximate earlier conversion."
   },
-  "planned_analysis_crs": "EPSG:2326"
+  "planned_analysis_crs": "EPSG:2326",
+  "analysis_envelopes_epsg2326": {
+    "acquisition": [
+      835007.46,
+      819534.61,
+      836008.96,
+      820531.27
+    ],
+    "core": [
+      835257.85,
+      819783.77,
+      835758.59,
+      820282.1
+    ]
+  },
+  "analysis_envelopes_note": "Authoritative projected envelopes supplied for Round 3; snap outward to the native CEDD pixel grid. WGS84 boxes retained as approximate original selection.",
+  "core_elevation_sanity": {
+    "tolerance_m": 0.3,
+    "minimum_fraction_exclusive": 0.99,
+    "denominator": "jointly valid core pixels",
+    "strict_dsm_ge_dtm": "informational only"
+  }
 }
