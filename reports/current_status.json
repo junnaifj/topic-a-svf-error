@@ -1,0 +1,58 @@
+{
+  "status": "blocked_missing_local_rasters",
+  "source_project": "/Users/junnai/Documents/phd-topic-a-svf-error",
+  "working_root": "/Users/junnai/Downloads/phd-topic-a-svf-working-20261024",
+  "original_project_unchanged": true,
+  "files_verified": 23,
+  "initial_baseline_unchanged": true,
+  "missing_local_archives": [
+    "dsm/11NW15C(e836n820,e836n821).zip",
+    "dsm/11NW19B(e835n819,e836n820).zip",
+    "dsm/11NW14D(e835n820,e836n821).zip",
+    "dsm/11NW19A(e834n819,e835n820).zip",
+    "dsm/11NW14C(e834n820,e835n821).zip",
+    "dsm/11NW20A(e836n819,e836n820).zip",
+    "dsm/11NW20C(e836n819,e836n819).zip",
+    "dsm/11NW19D(e835n819,e836n819).zip",
+    "dsm/11NW19C(e834n819,e835n819).zip",
+    "dtm/11NW19D(e835n819,e836n819).zip",
+    "dtm/11NW20C(e836n819,e836n819).zip",
+    "dtm/11NW14C(e834n820,e835n821).zip",
+    "dtm/11NW15C(e836n820,e836n821).zip",
+    "dtm/11NW14D(e835n820,e836n821).zip",
+    "dtm/11NW20A(e836n819,e836n820).zip",
+    "dtm/11NW19B(e835n819,e836n820).zip",
+    "dtm/11NW19A(e834n819,e835n820).zip",
+    "dtm/11NW19C(e834n819,e835n819).zip"
+  ],
+  "config_extents": {
+    "core": {
+      "projected_envelope": [
+        835257.8463440725,
+        819783.7707598159,
+        835758.5937237218,
+        820282.1011531991
+      ],
+      "approximate_width_m": 500.7473796493141,
+      "approximate_height_m": 498.330393383163
+    },
+    "acquisition": {
+      "projected_envelope": [
+        835007.4606157265,
+        819534.6117181755,
+        836008.9553733601,
+        820531.2725068788
+      ],
+      "approximate_width_m": 1001.4947576335398,
+      "approximate_height_m": 996.6607887033606
+    }
+  },
+  "completed_mosaics": 0,
+  "completed_clips": 0,
+  "complete_recovered_archives_preserved": [
+    "data/raw/cedd/dsm/11NW14C(e834n820,e835n821).zip"
+  ],
+  "cleanup_removed": [],
+  "cleanup_bytes_removed": 0,
+  "python_environment_retained": "/private/tmp/svf-preprocess-env"
+}

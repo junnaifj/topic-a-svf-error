@@ -1,0 +1,10 @@
+[
+  {
+    "layer": "dsm",
+    "filename": "11NW14C(e834n820,e835n821).zip",
+    "url": "https://bulkdata.csdi.gov.hk/cedd/lidar/2020dsm/11NW14C(e834n820,e835n821).zip",
+    "action": "recovered_from_saved_url",
+    "sha256": "155c4a38cb30e6b89c1a3d74fb360c1ccd6b2d2cd38302d2cb0409ed3154498e",
+    "matches_prior_manifest": true
+  }
+]

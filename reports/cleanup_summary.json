@@ -1,0 +1,7 @@
+{
+  "temporary_bytes_removed": 83055617,
+  "scope": "Only failed recovery partial files, wheel-download caches, metadata downloads and task staging files",
+  "original_data_deleted": false,
+  "complete_recovered_data_retained": true,
+  "python_environment_retained": "/private/tmp/svf-preprocess-env"
+}
